@@ -1,0 +1,152 @@
+/* Estilos aplicados a toda la página*/
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: Black;
+}
+.logo {
+    margin: 8px;
+    margin-bottom: 0px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0 !important;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+.content-pricing-ul {
+    background-color: white !important;
+}
+
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none !important;
+  }
+  
+/*li a:hover:not(.active) {
+    background-color: #111;
+  }
+  */
+  
+.active {
+    background-color: #e06500;
+  }
+
+body{
+    margin: 0px;
+}
+
+.d-block {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    object-position: bottom;
+}
+.busquedatexto {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    margin: 0px;
+}
+
+.busqueda {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.contenedor-resenas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.card {
+    box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.048), 0 4px 4px 0 rgba(0, 0, 0, 0.048);
+}
+.img-card {
+  margin-left: 50px;
+}
+
+.btn-card {
+    background-color: #e06500 !important;
+    border: 2px solid rgb(151, 151, 151) !important;
+    border-radius: 10px 5px !important;
+}
+
+.border-primary {
+    border-color: #e06500 !important;
+}
+
+
+/*Estilos página de Contacto */
+.contenedor-contacto {
+    display: grid;
+}
+
+.contenedor1 {
+    grid-column: 1;
+    grid-row: 1;
+    text-align: center;
+}
+  
+.contenedor2 {
+    grid-column: 2;
+    grid-row: 1 / span 3;
+}
+  
+.contenedor3 {
+    grid-column: 1;
+    grid-row: 3;
+    text-align: center;
+}
+
+.title {
+    color: #e06500;
+    font-size: 200%;
+}
+
+.mapa {
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+p::first-line {
+    text-decoration: none;
+}
+
+/* Estilos para el área del footer */
+/*footer {
+    background-color: #333;
+    margin: 0px;
+}*/
+
+.desarrollo {
+    color: white;
+    margin: 0px;
+    text-align: center;
+    font-size: smaller;
+}
+
+.nav {
+    background-color: white;
+}
+
+#mes-js {
+    display: flex;
+}

@@ -1,0 +1,56 @@
+/* Estilos del Catálogo */
+
+h5.titulo-libro {
+    margin-bottom: 0px;
+    text-decoration: none;
+}
+
+p.aut-libro {
+    font-size: 12px;
+    color: #858585;
+    margin-top: 0px;
+}
+
+p.precio-libro {
+    color: #e06500;
+}
+
+.btn-libro {
+    background-color: #e06500;
+    color: white;
+    padding: 7px;
+    border: 2px solid rgb(151, 151, 151);
+    border-radius: 10px 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn-libro:hover {
+    background-color: #6c757d;
+    color: white;
+    padding: 7px;
+    border: 2px solid rgb(151, 151, 151);
+    border-radius: 10px 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.img-fluid {
+    height: 180px !important;
+}
+
+.card {
+    border: 0 !important;
+    height: 22rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+.div-boton {
+    text-align: center;
+}
+
+.col-4 {
+    max-width: 30.333333% !important;
+}
+

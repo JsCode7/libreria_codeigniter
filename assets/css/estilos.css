@@ -1,0 +1,230 @@
+/* Estilos aplicados a toda la página*/
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: Black;
+}
+
+a:hover {
+    color: #6c757d !important;
+}
+
+.logo {
+    margin: 8px;
+    margin-bottom: 0px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0 !important;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none !important;
+  }
+  
+/*li a:hover:not(.active) {
+    background-color: #111;
+  }
+  */
+  
+.active {
+    background-color: #0b0404;
+  }
+
+body{
+    margin: 0px;
+}
+
+.d-block {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    object-position: bottom;
+}
+.busquedatexto {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    margin: 0px;
+}
+
+.busqueda {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Estilos Widget Jquery Externo */
+.elfsight-app-f16f2bf7-9306-430d-8e86-01e5456a821d {
+    position: relative;
+    text-align: end;
+    margin-right: 20px;
+    margin-top: 7%;
+}
+
+/*Reseñas*/
+
+.titulo-resenas {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.contenedor-resenas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.card {
+    box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.048), 0 4px 4px 0 rgba(0, 0, 0, 0.048);
+}
+.img-card {
+    width: 100%;
+    height: fit-content;
+}
+
+.btn-card {
+    background-color: #e06500 !important;
+    border: 2px solid rgb(151, 151, 151) !important;
+    border-radius: 10px 5px !important;
+}
+
+.btn-card2 {
+    background-color: #e06500 !important;
+    border: 2px solid rgb(151, 151, 151) !important;
+    border-radius: 10px 5px !important;
+    color: white;
+}
+
+.btn-card2:hover {
+    background-color: #e6873a !important;
+    border: 2px solid rgb(151, 151, 151) !important;
+    color: white;
+
+}
+
+.btn-card3 {
+    background-color: #333 !important;
+    border: 2px solid rgb(151, 151, 151) !important;
+    border-radius: 10px 5px !important;
+    color: white;
+    margin-top: 10px;
+}
+
+.btn-card3:hover {
+    background-color: rgb(141, 141, 141) !important;
+    border: 2px solid rgb(151, 151, 151) !important;
+    color: white;
+
+}
+
+
+.btn-primary:hover {
+    background-color: #6c757d !important;
+}
+
+/*Estilos página de Contacto */
+.contenedor-contacto {
+    display: grid;
+}
+
+.contenedor1 {
+    text-align: center;
+    margin-top: 2%;
+}
+
+.contenedor2 {
+    height: 330px;
+}
+
+
+.title {
+    color: #e06500;
+    font-size: 200%;
+}
+
+.mapa {
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+p::first-line {
+    text-decoration: none;
+}
+
+/* Estilos para el área del footer */
+/*footer {
+    background-color: #333;
+    margin: 0px;
+}*/
+
+.desarrollo {
+    color: white;
+    margin: 0px;
+    text-align: center;
+    font-size: smaller;
+}
+
+.nav {
+    background-color: white;
+}
+
+#mes-js {
+    display: flex;
+}
+
+/*Estilos Login*/
+
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+  }
+  
+  .form-signin .form-floating:focus-within {
+    z-index: 2;
+  }
+  
+  .form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  
+  .form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+
+
+/* Estilos Contador del index*/
+
+.seccion-countdown {
+    text-align: center;
+    margin-top: 2rem;
+    color: white;
+    background-color: #e6873a;
+    height: 100px;
+}
+
+.titulo-countdown {
+    padding-top: 15px;
+}
+  
