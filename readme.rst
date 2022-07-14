@@ -1,4 +1,11 @@
 ###################
+Proyecto librería para aprender la utilización de CodeIgniter
+###################
+
+Proyecto de Librería creado con codeigniter + base de datos mysql + API de Google Maps + Jquery y Js.
+
+
+###################
 What is CodeIgniter
 ###################
 
